@@ -1,0 +1,26 @@
+
+.cid-header {
+    background-image: url("../../assets/images/background4.jpg");
+}
+.cid-header .form-control,
+.cid-header .form-control:focus {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+}
+.cid-header .form-container {
+    transition: all .2s;
+    border: 1px solid #ffffff;
+    padding: 1rem;
+}
+.cid-header textarea.form-control {
+    min-height: 188px;
+}
+.cid-header .input-group-btn {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+@media (min-width: 768px) {
+    .cid-header .content-container {
+        padding-right: 5rem;
+    }
+}
