@@ -244,7 +244,7 @@ section .mbr-background-video-preview {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  -webkit-align-items: start;
+  -webkit-align-items: revert;
   -ms-flex-align: start;
   align-items: start;
 }
