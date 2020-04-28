@@ -26,9 +26,9 @@ function course4() {
 }
 function personCenter() {
     if (document.cookie == "teacher") {
-        window.location.href = "teacher.html";
+        window.location.href = "personalCenter/teacher.html";
     } else if (document.cookie == "student") {
-        window.location.href = "student.html";
+        window.location.href = "personalCenter/student.html";
     } else {
         alert("登录已失效");
         window.location.href = "index.html";

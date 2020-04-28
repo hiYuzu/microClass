@@ -3,38 +3,56 @@
     padding-bottom: 90px;
     background-color: #ffffff;
 }
+.cid-student .title {
+    padding-bottom: 2.5rem;
+}
 .cid-student h4 {
     width: 85%;
     font-weight: 500;
     margin-bottom: 0;
 }
-.cid-student p {
+.cid-student .bottom-line p {
     color: #767676;
 }
 .cid-student .card-wrapper {
-    border-top: 1px solid #efefef;
     background-color: #ffffff;
+    background-color: transparent;
     position: relative;
     justify-content: unset;
 }
 .cid-student .card-wrapper .card-box {
-    padding: 2rem;
     width: 100%;
 }
-.cid-student .card-wrapper .card-box .top-line {
+.cid-student .card-wrapper .card-box .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cid-student .card-wrapper .card-box .wrapper .top-line {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.cid-student .card-wrapper .card-box .bottom-line {
+.cid-student .card-wrapper .card-box .wrapper .bottom-line {
     width: 85%;
 }
 @media (max-width: 767px) {
-    .cid-student .card-wrapper .card-box .bottom-line {
+    .cid-student .card-wrapper .card-box .wrapper .bottom-line {
         width: 100%;
     }
-    .cid-student .card-wrapper .card-box .bottom-line p {
+    .cid-student .card-wrapper .card-box .wrapper .bottom-line p {
         text-align: center;
         margin: 1rem 0 0 0;
+    }
+}
+@media (max-width: 767px) {
+    .cid-student .card.pb-5 {
+        padding-bottom: 2rem !important;
+    }
+    .cid-student .wrapper {
+        padding-top: 1rem;
     }
 }
